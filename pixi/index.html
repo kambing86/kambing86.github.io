@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Dancing Dragon</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--<div id="customLog" style="width: 150px; position: absolute; bottom: 0; left: 0; padding: 5px; background-color: white; color: black;"></div>-->
+    <h1 id="status" style="color: white;"></h1>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/soundjs-0.5.2.min.js"></script>
+    <script src="js/CocoonJSAudioPlugin.js"></script>
+    <!--<script src="js/pixi.dev.js"></script>-->
+    <script src="js/pixi.js"></script>
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script>
+        var display = document.getElementById("status");
+        var clickFunc;
+        function addClickFunc(func) {
+            clickFunc = func;
+            display.addEventListener("click", handleClick, false);
+        }
+        function handleClick() {
+            display.removeEventListener("click", handleClick);
+            clickFunc(arguments);
+            clickFunc = null;
+        }
+        function showProgress(type, value) {
+            display.innerHTML = "Loading " + type + " " + value.toFixed(0) + "%";
+        }
+        function displayStatus(msg) {
+            display.style.display = "block";
+            display.innerHTML = msg;
+        }
+        function hideStatus() {
+            display.style.display = "none";
+        }
+        //function customLog(str) {
+        //    if ($("#customLog") != null)
+        //        $("#customLog").html($("#customLog").html() + str + "<br/>");
+        //    console.log(str);
+        //}
+    </script>
+    <!--<script src="js/RngJs.dev.js"></script>-->
+    <script src="js/RngJs.min.js"></script>
+</body>
+</html>
