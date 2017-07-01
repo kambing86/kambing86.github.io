@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Request Category items
+Need:
+1. PHP file name to call
+2. Category id to pass over to PHP
+3. Itemid to pass over to PHP
+-->
+<kiosk>
+	<item id="001-001">
+		<title>title 1</title>
+		<description>
+			<![CDATA[
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+				<b>Testing1</b>
+			]]>
+		</description>
+		<gallery>
+			<photo thumbsrc="img\Blue hills.jpg" actualsrc="img\Blue hills.jpg" caption="001-001-1" />
+			<photo thumbsrc="img\Sunset.jpg" actualsrc="img\Sunset.jpg" caption="001-001-2" />
+			<photo thumbsrc="img\Water lilies.jpg" actualsrc="img\Water lilies.jpg" caption="001-001-3" />
+			<photo thumbsrc="img\Winter.jpg" actualsrc="img\Winter.jpg" caption="001-001-4" />
+			<photo thumbsrc="img\loadImage_SS.jpg" actualsrc="img\loadImage_SS.jpg" caption="001-001-5" />
+		</gallery>
+	</item>
+	<item id="001-002">
+		<title>title 2</title>
+		<description>
+			<![CDATA[
+				<b>Testing2</b>
+			]]>
+		</description>
+		<gallery>
+			<photo thumbsrc="img\Sunset.jpg" actualsrc="img\Sunset.jpg" caption="001-002-1" />
+			<photo thumbsrc="img\Water lilies.jpg" actualsrc="img\Water lilies.jpg" caption="001-002-2" />
+			<photo thumbsrc="img\Winter.jpg" actualsrc="img\Winter.jpg" caption="001-002-3" />
+			<photo thumbsrc="img\loadImage_SS.jpg" actualsrc="img\loadImage_SS.jpg" caption="001-002-4" />
+		</gallery>
+	</item>
+	<item id="001-003">
+		<title>title 3</title>
+		<description>
+			<![CDATA[
+				<b>Testing3</b>
+			]]>
+		</description>
+		<gallery>
+			<photo thumbsrc="img\Water lilies.jpg" actualsrc="img\Water lilies.jpg" caption="001-003-1" />
+			<photo thumbsrc="img\Winter.jpg" actualsrc="img\Winter.jpg" caption="001-003-2" />
+			<photo thumbsrc="img\loadImage_SS.jpg" actualsrc="img\loadImage_SS.jpg" caption="001-003-3" />
+		</gallery>
+	</item>
+	<item id="001-004">
+		<title>title 4</title>
+		<description>
+			<![CDATA[
+				<b>Testing4</b>
+			]]>
+		</description>
+		<gallery>
+			<photo thumbsrc="img\Winter.jpg" actualsrc="img\Winter.jpg" caption="001-004-1" />
+			<photo thumbsrc="img\loadImage_SS.jpg" actualsrc="img\loadImage_SS.jpg" caption="001-004-2" />
+		</gallery>
+	</item>
+	<item id="001-005">
+		<title>title 5</title>
+		<description>
+			<![CDATA[
+				<b>Testing5</b>
+			]]>
+		</description>
+		<gallery>
+			<photo thumbsrc="img\loadImage_SS.jpg" actualsrc="img\loadImage_SS.jpg" caption="001-005-1" />
+		</gallery>
+	</item>
+</kiosk>

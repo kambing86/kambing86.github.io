@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Request Category items
+Need:
+1. PHP file name to call
+2. Category id to pass over to PHP
+3. Itemid to pass over to PHP
+-->
+<kiosk>
+	<category id="001">
+		<item id="001-001">
+			<photo thumbsrc="img\Blue hills.jpg" caption="001-001" />
+		</item>
+		<item id="001-002">
+			<photo thumbsrc="img\Sunset.jpg" caption="001-002" />
+		</item>
+		<item id="001-003">
+			<photo thumbsrc="img\Water lilies.jpg" caption="001-003" />
+		</item>
+		<item id="001-004">
+			<photo thumbsrc="img\Winter.jpg" caption="001-004" />
+		</item>
+		<item id="001-005">
+			<photo thumbsrc="img\loadImage_SS.jpg" caption="001-005" />
+		</item>
+		<item id="001-006">
+			<photo thumbsrc="img\Winter.jpg" caption="001-006" />
+		</item>
+		<item id="001-007">
+			<photo thumbsrc="img\Winter.jpg" caption="001-007" />
+		</item>
+		<item id="001-008">
+			<photo thumbsrc="img\Winter.jpg" caption="001-008" />
+		</item>
+		<item id="001-009">
+			<photo thumbsrc="img\Winter.jpg" caption="001-009" />
+		</item>
+		<item id="001-010">
+			<photo thumbsrc="img\Winter.jpg" caption="001-010" />
+		</item>
+		<item id="001-011">
+			<photo thumbsrc="img\Blue hills.jpg" caption="001-011" />
+		</item>
+		<item id="001-012">
+			<photo thumbsrc="img\Sunset.jpg" caption="001-012" />
+		</item>
+		<item id="001-013">
+			<photo thumbsrc="img\Water lilies.jpg" caption="001-013" />
+		</item>
+		<item id="001-014">
+			<photo thumbsrc="img\Winter.jpg" caption="001-014" />
+		</item>
+		<item id="001-015">
+			<photo thumbsrc="img\loadImage_SS.jpg" caption="001-015" />
+		</item>
+		<item id="001-016">
+			<photo thumbsrc="img\Winter.jpg" caption="001-016" />
+		</item>
+		<item id="001-017">
+			<photo thumbsrc="img\Winter.jpg" caption="001-017" />
+		</item>
+		<item id="001-018">
+			<photo thumbsrc="img\Winter.jpg" caption="001-018" />
+		</item>
+		<item id="001-019">
+			<photo thumbsrc="img\Winter.jpg" caption="001-019" />
+		</item>
+		<item id="001-020">
+			<photo thumbsrc="img\Winter.jpg" caption="001-020" />
+		</item>
+		<item id="001-021">
+			<photo thumbsrc="img\Blue hills.jpg" caption="001-021" />
+		</item>
+		<item id="001-022">
+			<photo thumbsrc="img\Sunset.jpg" caption="001-022" />
+		</item>
+		<item id="001-023">
+			<photo thumbsrc="img\Water lilies.jpg" caption="001-023" />
+		</item>
+		<item id="001-024">
+			<photo thumbsrc="img\Winter.jpg" caption="001-024" />
+		</item>
+		<item id="001-025">
+			<photo thumbsrc="img\loadImage_SS.jpg" caption="001-025" />
+		</item>
+		<item id="001-026">
+			<photo thumbsrc="img\Winter.jpg" caption="001-026" />
+		</item>
+		<item id="001-027">
+			<photo thumbsrc="img\Winter.jpg" caption="001-027" />
+		</item>
+		<item id="001-028">
+			<photo thumbsrc="img\Winter.jpg" caption="001-028" />
+		</item>
+		<item id="001-029">
+			<photo thumbsrc="img\Winter.jpg" caption="001-029" />
+		</item>
+		<item id="001-030">
+			<photo thumbsrc="img\Winter.jpg" caption="001-030" />
+		</item>
+		<item id="001-031">
+			<photo thumbsrc="img\Blue hills.jpg" caption="001-031" />
+		</item>
+		<item id="001-032">
+			<photo thumbsrc="img\Sunset.jpg" caption="001-032" />
+		</item>
+		<item id="001-033">
+			<photo thumbsrc="img\Water lilies.jpg" caption="001-033" />
+		</item>
+		<item id="001-034">
+			<photo thumbsrc="img\Winter.jpg" caption="001-034" />
+		</item>
+		<item id="001-035">
+			<photo thumbsrc="img\loadImage_SS.jpg" caption="001-035" />
+		</item>
+		<item id="001-036">
+			<photo thumbsrc="img\Winter.jpg" caption="001-036" />
+		</item>
+		<item id="001-037">
+			<photo thumbsrc="img\Winter.jpg" caption="001-037" />
+		</item>
+		<item id="001-038">
+			<photo thumbsrc="img\Winter.jpg" caption="001-038" />
+		</item>
+		<item id="001-039">
+			<photo thumbsrc="img\Winter.jpg" caption="001-039" />
+		</item>
+		<item id="001-040">
+			<photo thumbsrc="img\Winter.jpg" caption="001-040" />
+		</item>
+		<item id="001-041">
+			<photo thumbsrc="img\Blue hills.jpg" caption="001-041" />
+		</item>
+		<item id="001-042">
+			<photo thumbsrc="img\Sunset.jpg" caption="001-042" />
+		</item>
+		<item id="001-043">
+			<photo thumbsrc="img\Water lilies.jpg" caption="001-043" />
+		</item>
+		<item id="001-044">
+			<photo thumbsrc="img\Winter.jpg" caption="001-044" />
+		</item>
+		<item id="001-045">
+			<photo thumbsrc="img\loadImage_SS.jpg" caption="001-045" />
+		</item>
+		<item id="001-046">
+			<photo thumbsrc="img\Winter.jpg" caption="001-046" />
+		</item>
+		<item id="001-047">
+			<photo thumbsrc="img\Winter.jpg" caption="001-047" />
+		</item>
+		<item id="001-048">
+			<photo thumbsrc="img\Winter.jpg" caption="001-048" />
+		</item>
+		<item id="001-049">
+			<photo thumbsrc="img\Winter.jpg" caption="001-049" />
+		</item>
+	</category>
+	<category id="002">
+		<item id="002-001">
+			<photo thumbsrc="img\Blue hills.jpg" caption="002-001" />
+		</item>
+	</category>
+	<category id="003">
+		<item id="003-001">
+			<photo thumbsrc="img\Blue hills.jpg" caption="003-001" />
+		</item>
+		<item id="003-002">
+			<photo thumbsrc="img\Sunset.jpg" caption="003-002" />
+		</item>
+	</category>
+	<category id="004">
+		<item id="004-001">
+			<photo thumbsrc="img\Blue hills.jpg" caption="004-001" />
+		</item>
+		<item id="004-002">
+			<photo thumbsrc="img\Sunset.jpg" caption="004-002" />
+		</item>
+		<item id="004-003">
+			<photo thumbsrc="img\Water lilies.jpg" caption="004-003" />
+		</item>
+	</category>
+	<category id="005">
+		<item id="005-001">
+			<photo thumbsrc="img\Blue hills.jpg" caption="005-001" />
+		</item>
+		<item id="005-002">
+			<photo thumbsrc="img\Sunset.jpg" caption="005-002" />
+		</item>
+		<item id="005-003">
+			<photo thumbsrc="img\Water lilies.jpg" caption="005-003" />
+		</item>
+		<item id="005-004">
+			<photo thumbsrc="img\Winter.jpg" caption="005-004" />
+		</item>
+	</category>
+</kiosk>
