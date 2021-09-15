@@ -4,6 +4,10 @@
 
 - <https://kambing86.github.io/weather-pwa-app>
 
+## Vue Hello World
+
+- <https://github.com/kambing86/vue-hello-world>
+
 ## NPM Explorer
 
 - <https://kambing86.github.io/npm-explorer>
